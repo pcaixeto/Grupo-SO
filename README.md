@@ -1,5 +1,5 @@
 # Grupo-SO
-****************** MEMBROS ****************** 
+<h1 align="center">****************** MEMBROS ******************</h1>
 
 NOME : Pedro Machado Gomes Caixeta
 
