@@ -1,21 +1,6 @@
 #include <stdio.h>
 
 int main(void) {
-
-  int tamanho = 3, i, j, menor=1000000, menorlinha=0;
-
-  int matriz[3][3] = {1, 15, 23, 
-                      53, 42, 86, 
-                      2, 18, 19};
-  for (i = 0; i < tamanho; i++) {
-    for (j = 0; j < tamanho; j++) {
-      if (matriz[i][j] < menor) {
-        menor = matriz[i][j];
-        menorlinha = i;
-      }
-    }
-  }
-  printf("O menor número está na linha %d\n", menorlinha);
-
+  printf("Hello World\n");
   return 0;
 }
