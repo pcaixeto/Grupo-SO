@@ -37,6 +37,9 @@ Após rodar o comando de compilação, execute o arquivo executável gerado pelo
 
 5 - Crie um programa capaz de multiplicar uma linha de uma matriz de inteiros por um dado número. Faça o mesmo para uma coluna. A matriz deve ser lida de teclado.
 
+![image](https://user-images.githubusercontent.com/60986916/220843783-1d2876cd-f9d6-4b0e-a953-58e4b4b69897.png)
+
+
 6 - Crie um programa capaz de criar a transposta de uma matriz. A matriz deve ser lida de teclado.
 
 ![image](https://user-images.githubusercontent.com/60986916/220841237-d2e0b9a6-6b7b-4091-a83d-85c725103517.png)
