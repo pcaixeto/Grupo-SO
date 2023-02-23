@@ -7,6 +7,9 @@ NOME : Paloma Bezerra               TIA  : 32094264
 
 NOME : Arthur Ferreira              TIA  : 42000858
 
+## ****************** TAREFA LAB01B ******************
+1. Acesse a pasta "Tarefa 1"
+
 ## ****************** COMO COMPILAR O PROJETO ******************
 
 1. Acesse o link pro Replit: https://replit.com/@pcaixeto/Lab1-Grupo07#main.c
