@@ -49,6 +49,9 @@ Após rodar o comando de compilação, execute o arquivo executável gerado pelo
 
 7 - Faça um programa que crie um vetor de pessoas. Os dados de uma pessoa devem ser armazenados em um variavel do tipo struct. O programa deve permitir que o usuário digite o nome de 3 pessoas e a seguir imprimi os dados de todas as pessoas. A struct deve armazenar os dados de idade, peso e altura.
 
+![image](https://user-images.githubusercontent.com/60986916/220854380-e8ec9c9c-a129-4061-9ab2-47e235913344.png)
+
+
 8 - Crie uma função capaz de criar a transposta de uma matriz.
 
 9 - Crie uma função capaz de substituir todos os números negativos de uma matriz por seu módulo.
@@ -57,7 +60,6 @@ Após rodar o comando de compilação, execute o arquivo executável gerado pelo
 
 10 - Crie uma função capaz de multiplicar uma linha de uma matriz por um dado número. Faça o mesmo para uma coluna.
 
-![image](https://user-images.githubusercontent.com/60986916/220841764-c729ac6c-0c31-41ea-8abc-916d5d0dafba.png)
 
 11. Crie uma função capaz de somar os elementos das linhas L1 e L2 de uma matriz. O resultado deve ser colocado na linha L2. Faça o mesmo com a multiplicação.
 
