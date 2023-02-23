@@ -19,8 +19,10 @@ Após rodar o comando de compilação, execute o arquivo executável gerado pelo
 
 ## Como comprovar que os resultados propostos foram alcançados.
 
-###Laboratório 2
+### Laboratório 2
+
 1 - Crie um programa capaz de ler os dados de uma matriz quadrada de inteiros. Ao final da leitura o programa deverá imprimir o número da linha que contém o menor dentre todos os números lidos.
+![image](https://user-images.githubusercontent.com/60986916/220838930-cd9346e2-3e9a-418d-b28e-46e616f4f24a.png)
 
 2 - Escreva um programa que leia 3 notas de um aluno e a média das notas dos exercícios realizados por ele. Calcular a média de aproveitamento, usando a fórmula: MA = (N1 + N22 + N33 + ME)/7. A partir da média, informar o conceito de acordo com a tabela.
 
@@ -47,5 +49,4 @@ Após rodar o comando de compilação, execute o arquivo executável gerado pelo
 13 - Faça um rotina que remova um caracter de uma string do tipo char Str[100], dada a posição do caracter.
 
 14 - Faça uma rotina que insira um caracter em uma string do tipo char Str[100], dada a posição do caracter.
-![image](https://user-images.githubusercontent.com/60986916/220836158-10f581c0-86f9-4658-be61-4421151fa0c3.png)
 
