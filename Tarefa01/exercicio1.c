@@ -23,7 +23,7 @@ int main(void) {
       for (j = 0; j < tamanho; j++)
         printf("%d ", matriz[i][j]);
     }
-  printf("\nData a matriz acima o menor número está na linha %d\n", menorlinha);
+  printf("\nDada a matriz acima o menor número está na linha %d\n", menorlinha);
 
   return 0;
 }
