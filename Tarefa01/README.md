@@ -35,6 +35,9 @@ Após rodar o comando de compilação, execute o arquivo executável gerado pelo
 
 4 - Crie um progama capaz de ler dois nomes de pessoas e imprimi-los em ordem alfabética. Faça isto com string de C e de C++
 
+![image](https://user-images.githubusercontent.com/60986916/220851138-20c1231a-91fb-4b4e-a7eb-118403d90749.png)
+
+
 5 - Crie um programa capaz de multiplicar uma linha de uma matriz de inteiros por um dado número. Faça o mesmo para uma coluna. A matriz deve ser lida de teclado.
 
 ![image](https://user-images.githubusercontent.com/60986916/220843783-1d2876cd-f9d6-4b0e-a953-58e4b4b69897.png)
