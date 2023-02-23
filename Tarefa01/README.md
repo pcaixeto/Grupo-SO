@@ -54,6 +54,9 @@ Após rodar o comando de compilação, execute o arquivo executável gerado pelo
 
 8 - Crie uma função capaz de criar a transposta de uma matriz.
 
+![image](https://user-images.githubusercontent.com/60986916/221016925-6f8faad0-7adb-4a93-a1d6-f4eb3327669a.png)
+
+
 9 - Crie uma função capaz de substituir todos os números negativos de uma matriz por seu módulo.
 
 ![image](https://user-images.githubusercontent.com/60986916/220841601-56304036-28fc-4258-9240-6ec5eeca438e.png)
