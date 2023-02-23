@@ -60,6 +60,7 @@ Após rodar o comando de compilação, execute o arquivo executável gerado pelo
 
 10 - Crie uma função capaz de multiplicar uma linha de uma matriz por um dado número. Faça o mesmo para uma coluna.
 
+![image](https://user-images.githubusercontent.com/60986916/220930612-0c88fc2b-39ad-4b25-9bcc-028b610d6bd9.png)
 
 11. Crie uma função capaz de somar os elementos das linhas L1 e L2 de uma matriz. O resultado deve ser colocado na linha L2. Faça o mesmo com a multiplicação.
 
