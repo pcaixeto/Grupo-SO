@@ -1,17 +1,11 @@
 # Grupo-SO
 ## ****************** MEMBROS ******************
 
-NOME : Pedro Machado Gomes Caixeta
+* NOME : Pedro Machado Gomes Caixeta TIA  : 42105811
 
-TIA  : 42105811
+* NOME : Paloma Bezerra TIA  : 32094264
 
-NOME : Paloma Bezerra
-
-TIA  : 32094264
-
-NOME : Arthur Ferreira
-
-TIA  : 42000858
+* NOME : Arthur Ferreira TIA  : 42000858
 
 ## ****************** COMO COMPILAR OS ARQUIVOS .C ******************
 ** Certifique-se se você tem o GCC instalado na máquina **
