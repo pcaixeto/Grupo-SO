@@ -16,6 +16,6 @@ int main(){
 		printf("%c",c);	
 	}while(c!=EOF);
 
-	fclose(text);;
+	fclose(text);
 
 }
