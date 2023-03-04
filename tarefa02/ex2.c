@@ -3,6 +3,7 @@
 int main(){
         FILE *fileA, *fileB;
         char nameA[10], nameB[10];
+
         printf("File to be copied from: ");
         scanf("%s", nameA);
 
