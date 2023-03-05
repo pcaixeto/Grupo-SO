@@ -2,11 +2,17 @@
 
 int main(){
 	FILE *text;
-	text = fopen("text.txt", "r");
+	char name[10];
+
+	printf("\nFile to be read: ");
+	scanf("%s", name);
+
+	text = fopen(name, "r");
 	char c;
 
 	if(text == NULL){
-		printf("File cannot be  opened.");
+		printf("\nFile cannot be  opened. Exiting program.\n ");
+		return 1;
 	}
 	
 	printf("\nPrinting file content: \n");
