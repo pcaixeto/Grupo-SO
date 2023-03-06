@@ -24,4 +24,6 @@ int main(){
 
 	fclose(text);
 
+	return 0;
+
 }
