@@ -61,5 +61,6 @@ Após rodar o comando de compilação, execute o arquivo executável gerado pelo
 
 
 2) Escreva um programa (na linguagem C) que leia um arquivo texto (entrada) e copie para um outro arquivo (saída), ou seja, faz o que o comando cp faz no Linux. O seu programa deve solicitar o nome do arquivo de entrada e de saída (por linha de comando), uma vez obtido os dois nomes, o programa deve abrir o arquivo de entrada e criar o arquivo de saída. Caso por alguma razão não possa abrir o arquivo de entrada seu programa deve imprimir uma mensagem de aviso e finalizar, caso aconteça um erro de criação do arquivo saída o programa imprime uma mensagem e finaliza. Caso o programa tenha sucesso na abertura e criação, o programa lê a partir do arquivo de entrada e grava no arquivo de saída. Finalmente, depois que o arquivo de entrada for inteiramente copiado o programa pode fechar os dois arquivos.
-![image](https://user-images.githubusercontent.com/60986916/223555876-fca413ee-a1da-4753-b968-8331f20758c0.png)
+![image](https://user-images.githubusercontent.com/60986916/223558713-bc99eb77-f618-4a21-b3d7-3406885e1643.png)
+
 
