@@ -19,6 +19,7 @@ As chamadas de sistemas estão nas linhas:
  - linha 21: fgetc() - read()
  - linha 22: printf() - write()
  - linha 25: fclose() - close()
+ - 
  Foram realizadas 8 chamadas de sistema.
 
 Exercício 2 - Identifique no seu programa as linhas de comando onde ocorrem chamadas de sistemas ao SO.
@@ -40,6 +41,7 @@ As chamadas de sistemas estão nas linhas:
  - linha 31: fgetc() - read()
  - linha 34: fclose() - close()
  - linha 35: fclose() - close()
+ - 
  Foram realizadas 15 chamadas de sistema.
 
 ## Como compilar os arquivos em C
