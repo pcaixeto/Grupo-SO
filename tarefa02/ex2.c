@@ -14,7 +14,7 @@ int main(){
         }else
                 printf("\nFile opened successfully.\n");
 
-        printf("\nNew file name: ");
+        printf("\nNew file name: (file.txt)");
         scanf("%s",nameB);
 
         fileB = fopen(nameB,"w");
