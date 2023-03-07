@@ -7,7 +7,7 @@
 
 * NOME : Arthur Ferreira TIA  : 42000858
 
-###Exercício 1
+### Exercício 1
 
 Identifique no seu programa as linhas de comando onde ocorrem chamadas de sistemas ao SO.
 Quantas chamadas de sistemas foram realizadas?
@@ -24,7 +24,7 @@ As chamadas de sistemas estão nas linhas:
  
  Foram realizadas 8 chamadas de sistema.
 
-###Exercício 2
+### Exercício 2
 
 Identifique no seu programa as linhas de comando onde ocorrem chamadas de sistemas ao SO.
 Quantas chamadas de sistemas foram realizadas?
