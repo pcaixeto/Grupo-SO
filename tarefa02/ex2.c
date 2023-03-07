@@ -4,7 +4,7 @@ int main(){
         FILE *fileA, *fileB;
         char nameA[10], nameB[10];
 
-        printf("File to be copied from: ");
+        printf("File to be copied from: (filename.txt)");
         scanf("%s", nameA);
 
         fileA = fopen(nameA, "r");
@@ -14,7 +14,7 @@ int main(){
         }else
                 printf("\nFile opened successfully.\n");
 
-        printf("\nNew file name: (file.txt)");
+        printf("\nNew file name: (filename.txt)");
         scanf("%s",nameB);
 
         fileB = fopen(nameB,"w");
