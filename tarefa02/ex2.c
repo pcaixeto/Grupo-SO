@@ -20,6 +20,7 @@ int main(){
         fileB = fopen(nameB,"w");
         if(fileB == NULL){
                 printf("\nThe file cannot be created. Exiting program.\n");
+		return 1;
         }else
                 printf("\nFile created successfully.\n");
 
