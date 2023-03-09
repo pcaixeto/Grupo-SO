@@ -33,6 +33,4 @@ Não acontece nada, as mensagens são exibidas da mesma forma
 
 Após rodar o comando de compilação, execute o arquivo executável gerado pelo comando acima digitando o comando `./nome-do-arquivo-executavel` (EXEMPLO: `./exercicio3`)
 
-## Como comprovar que os resultados propostos foram alcançados.
 
-### Laboratório 3
