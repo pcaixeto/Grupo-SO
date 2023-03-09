@@ -18,6 +18,10 @@ As mensagens são ordenadas pelos valores de i.
 ### Exercício 2
 
 O que acontece se o programa anterior escreve-se as mensagens para sys.stdout, usando print, ao inv´es de para sys.stderr?
+
+Não acontece nada, as mensagens são exibidas da mesma forma
+![image](https://user-images.githubusercontent.com/60948786/224183951-cbb9c865-743f-47d8-a3e1-5917eadfd5e0.png)
+
   
 ## Como compilar os arquivos em C
 ** Certifique-se se você tem o GCC instalado na máquina **
