@@ -10,6 +10,8 @@
 ### Exercício 1
 
 Rode o programa anterior para valores grandes de n. As mensagens sempre estar˜ao ordenadas pelo valor de i?
+![image](https://user-images.githubusercontent.com/60948786/224182800-48cc96f1-b041-48e3-aed1-5ad35435881b.png)
+As mensagens são ordenadas pelos valores de i.
 
 ### Exercício 2
 
