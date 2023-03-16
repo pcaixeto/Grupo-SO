@@ -9,7 +9,7 @@
 
 ### Exercício 1
 
-Rode o programa anterior para valores grandes de n. As mensagens sempre estar˜ao ordenadas pelo valor de i?
+Rode o programa anterior para valores grandes de n. As mensagens sempre estarão ordenadas pelo valor de i?
 
 As mensagens são ordenadas pelos valores de i.
 ![image](https://user-images.githubusercontent.com/60948786/224182800-48cc96f1-b041-48e3-aed1-5ad35435881b.png)
@@ -33,6 +33,4 @@ Não acontece nada, as mensagens são exibidas da mesma forma
 
 Após rodar o comando de compilação, execute o arquivo executável gerado pelo comando acima digitando o comando `./nome-do-arquivo-executavel` (EXEMPLO: `./exercicio3`)
 
-## Como comprovar que os resultados propostos foram alcançados.
 
-### Laboratório 3
