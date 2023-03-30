@@ -78,7 +78,7 @@ void soltarGarfo(int numFilosofo){
 
 void pensar(int numFilosofo){
 	estadoFilosofo[numFilosofo] = PENSANDO;
-	//printf("Eu, Filosofo %d, estou pensando...", numFilosofo);
+	//printf("\nEu, Filosofo %d, estou pensando...", numFilosofo);
 	sleep(5);
 }
 
