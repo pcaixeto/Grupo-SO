@@ -11,7 +11,7 @@
 
 ### Jantar dos Filosofos
 
-Em nossa solução, 
+Em nossa solução, cada filósofo é representado por uma thread, que roda independente das outras, e a comunicação entre eles é gerenciada por semáforos: um árbitro, que funciona como um mutex, decidindo se um filósofo pode ou não comer em dado momento, e um semáforo para cada filósofo, que auxilia a comunicação sinalizando sempre que um filósofo parar ou começar a comer.
 
 
 ## Como compilar os arquivos em C
