@@ -102,7 +102,7 @@ int main(){
 		
 	}
 
-	//criando as threads (filosofos)
+	//criando as threads (filosofos) - cada filosofo e representado por uma thread que roda independente dos outros, a comunicacao entre eles e intermediada pelos semaforos
 	for(int i=0; i<5; i++){
 		pthread_create(&thread_id[i], NULL, filosofos, &vFilosofos[i]);
 		printf("criei o filosofo %d...", i+1);
