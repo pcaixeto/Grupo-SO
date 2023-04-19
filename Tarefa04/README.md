@@ -22,14 +22,17 @@ Sem utilizar um mutex, mais de uma thread pode acessar a variável global **soma
 Por isso, diferentes execuções do exercício 1 podem resultar em valores de Pi um pouco distintos.
 
 Exemplo:
+
 ![image](https://user-images.githubusercontent.com/60948786/233131459-cb6fe3d8-4fb4-49b4-a634-fcb4440549b0.png)
 
 
 ### Exercício 2
 Utilizando um mutex para proteger a seção do código onde é realizada a operação na variável global **soma**, é garantido que apenas uma thread terá acesso a ela por vez:
+
 ![image](https://user-images.githubusercontent.com/60948786/233132291-4209e40c-463e-45c0-bc4f-107fe04be7ac.png)
  
 Assim, não ocorrem condições de corrida e o resultado não é alterado:
+
 ![image](https://user-images.githubusercontent.com/60948786/233132537-654c4107-8b49-4da1-88f9-fbdd15bc5381.png)
 
 ## Como compilar os arquivos em C
