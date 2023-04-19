@@ -24,7 +24,7 @@ void *somaPi(void *arg) {
     for (i = start_i; i < end_i; i++, factor = -factor) {
         sem_wait(&mutex);
         soma += factor / (2.0 * i + 1.0);
-        printf("\nthread numero %ld calculando soma: %lf", thread_num + 1, soma);
+       // printf("\nthread numero %ld calculando soma: %lf", thread_num + 1, soma);
         sem_post(&mutex);
     }
 
@@ -37,7 +37,7 @@ int main(void) {
     pthread_t threadid[thread_count];
 
     sem_init(&mutex, 0, 1);
-    printf("\nsemaforo inicializado\n");
+   // printf("\nsemaforo inicializado\n");
 
     printf("numero de threads: %lld\n", thread_count);
 
@@ -50,7 +50,7 @@ int main(void) {
     }
 
     soma = 4 * soma;
-    printf("\n\npi: %lf", soma);
+    printf("\n\npi: %lf\n", soma);
 
     return 0;
 }

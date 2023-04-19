@@ -20,7 +20,7 @@ void *somaPi(void *Thread){
 
 	for(i = start_i; i<end_i; i++, factor = -factor){
 		soma += factor/(2.0*i+1.0);
-		printf("\nthread numero %ld calculando soma: %lf",(long)Thread, soma);
+		//printf("\nthread numero %ld calculando soma: %lf",(long)Thread, soma);
 	}
 
 	return NULL;
@@ -42,7 +42,7 @@ int main(void) {
 	}
 
 	soma = 4*soma;
-	printf("\n\npi: %lf", soma);
+	printf("\n\npi: %lf \n", soma);
 	
   return 0;
 }
