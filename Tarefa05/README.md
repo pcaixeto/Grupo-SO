@@ -22,6 +22,7 @@
 
 * **4)** Construa uma função que remove os elementos da lista;
 * **5)** Incremente sua função liberando a memória quando um elemento é liberado;
+* 
         ![image](https://user-images.githubusercontent.com/60948786/234988768-2fd44fb4-f028-4a6a-8a44-dafa42826210.png)
 
 
