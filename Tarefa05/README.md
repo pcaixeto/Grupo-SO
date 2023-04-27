@@ -30,7 +30,7 @@
 **6)** Calcule o máximo de elementos possíveis na fila, considerando a memória disponível no computador.
    ![image](https://user-images.githubusercontent.com/60948786/234990529-7c1cc619-4f95-491c-ba63-a3a362a56f35.png)
    
-   Considerando que há 9480412kB disponíveis e cada eleento ocupa 16 bits, podemos afirmar que a quantidade de elementos máximos na fila é **4740206000**
+   Considerando que há 9480412kB disponíveis e cada elemento ocupa 16 bits, podemos afirmar que a quantidade de elementos máximos na fila é **4740206000**
 
 
 ## Como compilar os arquivos em C
