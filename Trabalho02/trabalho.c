@@ -63,6 +63,13 @@ int main() {
 
 	sem_init(&mutexF, 0, 1);
 	sem_init(&mutexT, 0, 1);
+
+	stack = malloc( FIBER_STACK );
+  	if ( stack == 0 )
+	{
+	       	perror("malloc: could not allocate stack");
+	       	exit(1);
+       	}
    
    
     	from.saldo = 10000;
@@ -71,7 +78,7 @@ int main() {
     	valor = 10;
     	
     	for (i = 0; i < threadCount; i++) {
-		if(i%2==0)
+		if(i%5==0)
         		pthread_create( &threadIds[i], NULL, transferenciaC2, (void*) i);
 		else
 			pthread_create( &threadIds[i], NULL, transferenciaC1, (void*) i);
@@ -82,6 +89,6 @@ int main() {
     	}
 
    	 free(stack);
-   	 printf("Transferências concluídas e memória liberada.\n");
+   	 printf("\nTransferências concluídas e memória liberada.\n");
    	 return 0;
 }
