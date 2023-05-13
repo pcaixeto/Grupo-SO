@@ -25,32 +25,31 @@ sem_t mutexF;
 sem_t mutexT;
 
 void *transferenciaC1(void* thread){
+	sem_wait(&mutexF);
 	if(from.saldo > 0 && to.saldo>0){
-		sem_wait(&mutexF);
 		from.saldo -= valor;
 		to.saldo += valor;
 		printf("\ntransferindo da conta 1 para conta 2");
 		printf("\nsaldo de c1: %d", from.saldo);
 		printf("\nsaldo de c2: %d", to.saldo);
-		sem_post(&mutexF);
 	}
+	sem_post(&mutexF);
 
 	return NULL;
 }
 
 void *transferenciaC2(void* thread) {
+	sem_wait(&mutexT);
 	if(to.saldo > 0 && from.saldo>0){
-		sem_wait(&mutexT);
                 to.saldo -= valor;
                 from.saldo += valor;
                 printf("\ntransferindo da conta 2 para conta 1");
                 printf("\nsaldo de c1: %d", from.saldo);
                 printf("\nsaldo de c2: %d", to.saldo);
-		sem_post(&mutexT);
         }
+	sem_post(&mutexT);
 
         return NULL;
-
 
 }
 
@@ -72,13 +71,13 @@ int main() {
        	}
    
    
-    	from.saldo = 10000;
-    	to.saldo = 10000;
+    	from.saldo = 100000;
+    	to.saldo = 100000;
 
     	valor = 10;
     	
     	for (i = 0; i < threadCount; i++) {
-		if(i%5==0)
+		if(i%3==0)
         		pthread_create( &threadIds[i], NULL, transferenciaC2, (void*) i);
 		else
 			pthread_create( &threadIds[i], NULL, transferenciaC1, (void*) i);
