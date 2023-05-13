@@ -19,8 +19,6 @@ typedef struct c conta;
 
 conta from, to;
 int valor;
-conta * p, * q;
-int cont = 0;
 sem_t mutexF;
 sem_t mutexT;
 
